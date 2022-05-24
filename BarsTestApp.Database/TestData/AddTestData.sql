@@ -1,0 +1,8 @@
+﻿INSERT INTO [dbo].[Contract] VALUES ('14-05-2022', '14-05-2022')
+INSERT INTO [dbo].[Contract] VALUES ('14-01-2021', '14-05-2021')
+INSERT INTO [dbo].[Contract] VALUES ('14-02-2021', '14-05-2021')
+INSERT INTO [dbo].[Contract] VALUES ('14-03-2021', '14-05-2021')
+INSERT INTO [dbo].[Contract] VALUES ('14-04-2021', '14-05-2021')
+INSERT INTO [dbo].[Contract] VALUES ('14-05-2021', '14-11-2021')
+INSERT INTO [dbo].[Contract] VALUES ('14-06-2021', '14-09-2021')
+INSERT INTO [dbo].[Contract] VALUES ('14-07-2021', '14-08-2021')

@@ -1,0 +1,19 @@
+﻿<Window x:Class="BarsTestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarsTestApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGrid" Margin="34,44,57,26" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер контракта" Binding="{Binding ContractNumber}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата создания" Binding="{Binding CreatedOn}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Последняя дата обновления" Binding="{Binding LastUpdate}"></DataGridTextColumn>
+                <DataGridCheckBoxColumn Header="Контракт активен" Binding="{Binding IsActive}" IsReadOnly="True"></DataGridCheckBoxColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
